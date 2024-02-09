@@ -1,0 +1,10 @@
+#if UNITY_EDITOR
+using UnityEditor;
+{0}
+
+namespace GameEvents
+{{
+    [CustomEditor(typeof({1}Event))]
+    public class {1}GameEventEditor : BaseGameEventEditor<{1}, {1}Event> {{ }}
+}}
+#endif

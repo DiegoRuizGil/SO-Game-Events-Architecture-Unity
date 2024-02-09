@@ -1,0 +1,8 @@
+using UnityEngine;
+{0}
+
+namespace GameEvents
+{{
+    [CreateAssetMenu(fileName = "New {1} Event", menuName = "Game Events/{1} Event")]
+    public class {1}Event : BaseGameEvent<{1}> {{ }}
+}}

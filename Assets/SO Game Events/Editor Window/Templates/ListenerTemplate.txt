@@ -1,0 +1,7 @@
+using UnityEngine.Events;
+{0}
+
+namespace GameEvents
+{{
+    public class {1}Listener : BaseGameEventListener<{1}, {1}Event, UnityEvent<{1}>> {{ }}
+}}
