@@ -20,7 +20,7 @@ namespace GameEvents
             set { gameEvent = value; }
         }
 
-        [SerializeField] private EUR unityEventResponse;
+        [SerializeField] protected EUR unityEventResponse;
 
         public void OnEnable()
         {
@@ -44,6 +44,21 @@ namespace GameEvents
             {
                 unityEventResponse.Invoke(item);
             }
+        }
+        
+        public void AddAction(UnityAction<T> call)
+        {
+            unityEventResponse.AddListener(call);
+        }
+
+        public void RemoveAction(UnityAction<T> call)
+        {
+            unityEventResponse.RemoveListener(call);
+        }
+
+        public virtual void RemoveAllActions()
+        {
+            unityEventResponse.RemoveAllListeners();
         }
     }
 }
