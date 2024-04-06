@@ -5,69 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd2a032-3ea8-4c30-b3c2-82165141239a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characater/IRandomizable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characater/IRandomizable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characater/ShapeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characater/ShapeController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SO-Game-Events-Architecture-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SO-Game-Events-Architecture-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnLevelInfoUpdateGameEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnLevelInfoUpdateGameEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnSpacePressedGameEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnSpacePressedGameEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PointsUpdateGameEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PointsUpdateGameEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PruebaSO.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PruebaSO.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PruebaSOGameEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PruebaSOGameEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/BaseGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/BaseGameEventEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/IntGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/IntGameEventEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/LevelInfoGameEventEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/LevelInfoGameEventEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/PruebaSOGameEventEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/PruebaSOGameEventEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/VoidGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editors/VoidGameEventEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/LevelInfoEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/LevelInfoEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/PruebaSOEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/PruebaSOEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/LevelInfoListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/LevelInfoListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/PruebaSOListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/PruebaSOListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/GameEventsEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/GameEventsEditorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/EventTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/EventTemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/GameEventEditorTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/GameEventEditorTemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/ListenerTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/ListenerTemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BaseGameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BaseGameEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BoolEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BoolEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/FloatEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/FloatEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/IntEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/IntEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/StringEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/StringEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/VoidEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/VoidEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BaseGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BaseGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BoolListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BoolListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/FloatListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/FloatListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IntListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IntListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/StringListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/StringListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/VoidListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/VoidListener.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Void.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Void.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Custom Types.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Custom Types/LevelInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Custom Types/LevelInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventTester.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventTester.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/PruebaSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/PruebaSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CODE_GENERATION/Editors/SpriteGameEventEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characater/NameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health/HealthBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health/HealthTextUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,7 +133,7 @@
       <workItem from="1712136579581" duration="2710000" />
       <workItem from="1712224400546" duration="4555000" />
       <workItem from="1712327383475" duration="25000" />
-      <workItem from="1712416260220" duration="3684000" />
+      <workItem from="1712416260220" duration="5120000" />
     </task>
     <servers />
   </component>

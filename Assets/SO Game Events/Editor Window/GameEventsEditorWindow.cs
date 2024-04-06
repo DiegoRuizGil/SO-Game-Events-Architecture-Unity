@@ -1,4 +1,14 @@
+/*
+    This script is part of the SO Game Events Architecture Project.
+    You are free to use, modify, and distribute the code as you want.
+    Credit is not required, but it is always appreciated.
+
+    Author: Diego Ruiz Gil
+    https://github.com/DiegoRuizGil/SO-Game-Events-Architecture-Unity
+*/
+
 #if UNITY_EDITOR
+using System;
 using System.IO;
 using System.Linq;
 using UnityEngine;
@@ -11,7 +21,7 @@ namespace GameEvents
         private string classNamespace;
         private string className;
         
-        [MenuItem("Window/Game Events")]
+        [MenuItem("Game Events/Create New Event")]
         public static void ShowWindow()
         {
             GetWindow(typeof(GameEventsEditorWindow),true, "Game Events");
@@ -25,11 +35,12 @@ namespace GameEvents
             className = EditorGUILayout.TextField("class name", className);
 
             GUILayout.Space(10);
-            
+
             if (GUILayout.Button("Generate Scripts"))
             {
                 GenerateScripts();
             }
+            
         }
 
         private void GenerateScripts()
@@ -50,6 +61,8 @@ namespace GameEvents
             
             FileInfo editorFileInfo = new FileInfo(EDITORS_FOLDER, EDITOR_TEMPLATE, "GameEventEditor", "UnityEditor");
             GenerateScript(editorFileInfo);
+            
+            AssetDatabase.Refresh();
         }
         
         // template paths
@@ -62,7 +75,7 @@ namespace GameEvents
         private string CODE_GENERATION_FOLDER => Application.dataPath + "/CODE_GENERATION";
         private readonly string EVENTS_FOLDER = "/Game Events";
         private readonly string LISTENERS_FOLDER = "/Listeners";
-        private readonly string EDITORS_FOLDER = "/Editors";
+        private readonly string EDITORS_FOLDER = "/Editor";
 
         private class FileInfo
         {
