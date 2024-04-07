@@ -10,10 +10,21 @@ public class RandomizeController : MonoBehaviour
     [Header("Events")]
     [SerializeField] private VoidEvent _onRandomizeCharacter;
 
+    private BoolListener _listener;
+
     private void OnEnable()
     {
+        _listener.AddAction(Hola);
+        _listener.RemoveAction(Hola);
+        _listener.RemoveAllActions();
+        
         if (_randomizeButton != null)
             _randomizeButton.onClick.AddListener(InvokeRandomizeEvent);
+    }
+
+    private void Hola(bool value)
+    {
+        
     }
 
     private void OnDisable()
