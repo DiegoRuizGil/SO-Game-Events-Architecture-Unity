@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd2a032-3ea8-4c30-b3c2-82165141239a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SO-Game-Events-Architecture-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SO-Game-Events-Architecture-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/GameEventsEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/GameEventsEditorWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/EventTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/EventTemplate.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/GameEventEditorTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/GameEventEditorTemplate.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/ListenerTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor Window/Templates/ListenerTemplate.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BaseGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/BoolGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/FloatGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/IntGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/StringGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/Editor/VoidGameEventEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BaseGameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BaseGameEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BoolEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/BoolEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/FloatEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/FloatEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/IntEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/IntEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/StringEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/StringEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/VoidEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Events/VoidEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BaseGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BaseGameEventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BoolListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/BoolListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/FloatListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/FloatListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IGameEventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IntListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/IntListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/StringListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/StringListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/VoidListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Listeners/VoidListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Void.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO Game Events/GameEvents/Void.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +109,7 @@
       <workItem from="1712136579581" duration="2710000" />
       <workItem from="1712224400546" duration="4555000" />
       <workItem from="1712327383475" duration="25000" />
-      <workItem from="1712416260220" duration="5120000" />
+      <workItem from="1712416260220" duration="6109000" />
     </task>
     <servers />
   </component>
