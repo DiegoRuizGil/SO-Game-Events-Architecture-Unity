@@ -24,14 +24,16 @@ You can try a demo from this [`itch.io`](https://diegorg64.itch.io/so-game-event
 ### Events creation
 In the `Project` window, right click and nagivate to `Create` -> `Game Events`, and select the event type you want.
 
-`AÑADIR AQUI LA IMAGEN`
-
 The event type indicates the type of data you will send to the listeners subscirbed to it.
+
+![Create Event](Images/game-events-create.jpg)
 
 ### Adding listeners
 With a GameObject selected, click on `Add Component` and search for a listener of the same type of the event you want to be suscribed.
 
 In the component, we have the `Game Event` attribute, where we must assing the scriptable object of the event, and a UnityEvent for the `Response`.
+
+![Listener](Images/listener.jpg)
 
 ### Listener response from code
 You can add a response to an event from code. Just take a reference to the listener and use the `AddAction` function to add a new response, or the `RemoveAction` and `RemoveAllActions` functions to remove responses.
@@ -61,9 +63,11 @@ public class TestClass : MonoBehaviour
 ```
 
 ### Create new events types
-Navigate to `Game Events` -> `Create New Type Event`, from the top bar. In the new menu displayed, you will have to indicate the namespace of the class (if it has one), and the class name.
+Navigate to `Game Events` -> `Create New Type Event`, from the top bar. In the new menu displayed, you will have to indicate the namespace of the class (if it belongs to one), and the class name.
 
-All the code genereted from this menu will be located in the `CODE_GENERATION` folder.
+All the code genereted from this menu will be located in the `CODE_GENERATION` folder inside `Assets`.
+
+![Create new event type](Images/menu-item.jpg)
  
 ## License
 This project is released under the MIT License by Diego Ruiz Gil (2024)

@@ -21,7 +21,7 @@ namespace GameEvents
         private string classNamespace;
         private string className;
         
-        [MenuItem("Game Events/Create New Event")]
+        [MenuItem("Game Events/Create New Type Event")]
         public static void ShowWindow()
         {
             GetWindow(typeof(GameEventsEditorWindow),true, "Game Events");
@@ -30,12 +30,13 @@ namespace GameEvents
         private void OnGUI()
         {
             EditorGUILayout.LabelField("Event Info", EditorStyles.boldLabel);
-            
+
             classNamespace = EditorGUILayout.TextField("namespace", classNamespace);
+            GUILayout.Space(5);
             className = EditorGUILayout.TextField("class name", className);
 
-            GUILayout.Space(10);
-
+            GUILayout.Space(20);
+            
             if (GUILayout.Button("Generate Scripts"))
             {
                 GenerateScripts();
