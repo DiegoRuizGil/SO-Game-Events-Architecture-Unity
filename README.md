@@ -8,6 +8,8 @@ You can try a demo from this [`itch.io`](https://diegorg64.itch.io/so-game-event
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
     - [Events creation](#events-creation)
+    - [Triggering events](#triggering-events)
+    - [Events debugging](#events-debugging)
     - [Adding listeners](#adding-listeners)
     - [Listener response from code](#listener-response-from-code)
     - [Create new events types](#create-new-events-types)
@@ -17,7 +19,7 @@ You can try a demo from this [`itch.io`](https://diegorg64.itch.io/so-game-event
 ## How to install
 - Download the `Unity Package` from the `Releases` section or from the [`itch.io`](https://diegorg64.itch.io/so-game-events-architecture) page
 - From the Unity project editor, drag and drop the Unity Package into the `Assets` folder
-- Click on `Import` in the displayed window
+- Click `Import` in the displayed window
 
 ## How to use
 
@@ -27,6 +29,35 @@ In the `Project` window, right click and nagivate to `Create` -> `Game Events`, 
 The event type indicates the type of data you will send to the listeners subscirbed to it.
 
 ![Create Event](Images/game-events-create.jpg)
+
+### Triggering events
+To trigger an evnet, you'll first requiere a reference to the event in your code. Then, you can use the `Raise` function. This method requires an argument containing the information you want to send to the listeners.
+
+```CSharp
+using GameEvents;
+using UnityEngine;
+
+public class TestClass : MonoBehaviour
+{
+    [SerializeField]
+    private IntEvent _myIntEvent;
+
+    ...
+
+    private void InvokeMyEvent()
+    {
+        int value = GetValue();
+
+        if (_myIntEvent != null)
+            _myIntEvent.Raise(value);
+    }
+}
+```
+
+### Events debugging
+You can trigger an event selecting the scriptable object, setting a `Debug Value` in the insepctor and clicking on the `Raise` button. This will help in debugging whether the listeners are responding correctly to the event, whitout requiring to execute the code needed to trigger it.
+
+![Event debugging](Images/event-debugging.gif)
 
 ### Adding listeners
 With a GameObject selected, click on `Add Component` and search for a listener of the same type of the event you want to be suscribed.
