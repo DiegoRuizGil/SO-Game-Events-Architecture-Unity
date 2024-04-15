@@ -31,7 +31,7 @@ The event type indicates the type of data you will send to the listeners subscir
 ![Create Event](Images/game-events-create.jpg)
 
 ### Triggering events
-To trigger an evnet, you'll first requiere a reference to the event in your code. Then, you can use the `Raise` function. This method requires an argument containing the information you want to send to the listeners.
+To trigger an event, you'll first requiere a reference to the event in your code. Then, you can use the `Raise` function. This method requires an argument containing the information you want to send to the listeners.
 
 ```CSharp
 using GameEvents;
@@ -62,7 +62,7 @@ You can trigger an event selecting the scriptable object, setting a `Debug Value
 ### Adding listeners
 With a GameObject selected, click on `Add Component` and search for a listener of the same type of the event you want to be suscribed.
 
-In the component, we have the `Game Event` attribute, where we must assing the scriptable object of the event, and a UnityEvent for the `Response`.
+In the component, there is an `Game Event` attribute, where you must assing the scriptable object of the event, and a UnityEvent for the `Response`.
 
 ![Listener](Images/listener.jpg)
 
